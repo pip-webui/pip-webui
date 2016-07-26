@@ -31,27 +31,27 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
   <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/WebUI-1.png" alt="Pip.WebUI Structure" style="display:block;">
 </div>
 
-
-| [pip-webui-tasks](https://github.com/pip-webui/pip-webui-tasks) | Gulp build tasks |
-| [pip-webui-lib](https://github.com/pip-webui/pip-webui-lib) | collection of 3rd party libraries other modules depend on |
-| [pip-webui-css](https://github.com/pip-webui/pip-webui-css) | CSS framework to extend Angular Material styles with animations, visual effects and web components |
-| [pip-webui-core](https://github.com/pip-webui/pip-webui-core) | Core services: localization, themes, error handling,
-infinite scroll, draggable, selection behaviors, and more... |
-| [pip-webui-rest](https://github.com/pip-webui/pip-webui-rest) | Customizable REST API for connected controls |
-| [pip-webui-layouts](https://github.com/pip-webui/pip-webui-layouts) | application layouts: simple, document, master-detail, tiles, split, dialog |
-| [pip-webui-controls](https://github.com/pip-webui/pip-webui-controls) | basic controls: color picker, toggle buttons, popover, dialogs and more... |
-| [pip-webui-nav](https://github.com/pip-webui/pip-webui-nav)| navigation mechanisms: appbar and sidenav |
-| [pip-webui-locations](https://github.com/pip-webui/pip-webui-locations) | location view and editing controls |
-| [pip-webui-documents](https://github.com/pip-webui/pip-webui-documents) | document browsing and upload controls |
-| [pip-webui-pictures](https://github.com/pip-webui/pip-webui-pictures) | picture view and editing controls, collage, avatars |
-| [pip-webui-composite](https://github.com/pip-webui/pip-webui-composite) | composite view and editing control for complex mixed content |
-| [pip-webui-entry](https://github.com/pip-webui/pip-webui-entry) | user signin, signup, password recovery and email verification pages |
-| [pip-webui-errors](https://github.com/pip-webui/pip-webui-errors) | error handling pages and controls |
-| [pip-webui-settings](https://github.com/pip-webui/pip-webui-settings) | application settings page |
-| [pip-webui-guidance](https://github.com/pip-webui/pip-webui-guidance) | user context guidance, inspirational quotes, intro dialogs |
-| [pip-webui-help](https://github.com/pip-webui/pip-webui-help) | integrated help page |
-| [pip-webui-support](https://github.com/pip-webui/pip-webui-support) | user support and feedback pages |
-
+<table>
+<tr><td> [pip-webui-tasks](https://github.com/pip-webui/pip-webui-tasks) </td><td> Gulp build tasks </td></tr>
+<tr><td> [pip-webui-lib](https://github.com/pip-webui/pip-webui-lib) </td><td> collection of 3rd party libraries other modules depend on </td></tr>
+<tr><td> [pip-webui-css](https://github.com/pip-webui/pip-webui-css) </td><td> CSS framework to extend Angular Material styles with animations, visual effects and web components </td></tr>
+<tr><td> [pip-webui-core](https://github.com/pip-webui/pip-webui-core) </td><td> Core services: localization, themes, error handling,
+infinite scroll, draggable, selection behaviors, and more... </td></tr>
+<tr><td> [pip-webui-rest](https://github.com/pip-webui/pip-webui-rest) </td><td> Customizable REST API for connected controls </td></tr>
+<tr><td> [pip-webui-layouts](https://github.com/pip-webui/pip-webui-layouts</td><td> application layouts: simple, document, master-detail, tiles, split, dialog </td></tr>
+<tr><td> [pip-webui-controls](https://github.com/pip-webui/pip-webui-controls) </td><td> basic controls: color picker, toggle buttons, popover, dialogs and more... </td></tr>
+<tr><td> [pip-webui-nav](https://github.com/pip-webui/pip-webui-nav) </td><td> navigation mechanisms: appbar and sidenav </td></tr>
+<tr><td> [pip-webui-locations](https://github.com/pip-webui/pip-webui-locations) </td><td> location view and editing controls </td></tr>
+<tr><td> [pip-webui-documents](https://github.com/pip-webui/pip-webui-documents) </td><td> document browsing and upload controls </td></tr>
+<tr><td> [pip-webui-pictures](https://github.com/pip-webui/pip-webui-pictures) </td><td> picture view and editing controls, collage, avatars </td></tr>
+<tr><td> [pip-webui-composite](https://github.com/pip-webui/pip-webui-composite) </td><td> composite view and editing control for complex mixed content </td></tr>
+<tr><td> [pip-webui-entry](https://github.com/pip-webui/pip-webui-entry) </td><td> user signin, signup, password recovery and email verification pages </td></tr>
+<tr><td> [pip-webui-errors](https://github.com/pip-webui/pip-webui-errors) </td><td> error handling pages and controls </td></tr>
+<tr><td> [pip-webui-settings](https://github.com/pip-webui/pip-webui-settings) </td><td> application settings page </td></tr>
+<tr><td> [pip-webui-guidance](https://github.com/pip-webui/pip-webui-guidance) </td><td> user context guidance, inspirational quotes, intro dialogs </td></tr>
+<tr><td> [pip-webui-help](https://github.com/pip-webui/pip-webui-help) </td><td> integrated help page </td></tr>
+<tr><td> [pip-webui-support](https://github.com/pip-webui/pip-webui-support) </td><td> user support and feedback pages </td></tr>
+</table>
 
 ## Learn more about Pip.WebUI
 
