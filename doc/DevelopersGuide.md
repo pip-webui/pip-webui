@@ -1,18 +1,19 @@
-# Development and Testing Guide <br/> Pip.Services Template
+# Pip.WebUI Developer's Guide
 
-This document provides high-level instructions on how to build and test the library.
+This document provides high-level instructions on how to build and test the project.
 
 * [Environment Setup](#setup)
-* [Installing](#install)
+* [Installation](#install)
 * [Building](#build)
 * [Testing](#test)
 * [Contributing](#contrib) 
+* [Appendix](#appendix)
 
 ## <a name="setup"></a> Environment Setup
 
 Must be installed **[Node.js](https://nodejs.org/)**. If not installed, you can download [here](https://nodejs.org/en/download/).
 
-## <a name="install"></a> Installing
+## <a name="install"></a> Installation
 
 TBD...
 
@@ -66,3 +67,14 @@ itemize all:
 - Bug Fixes
 - New Features
 - Breaking Changes
+
+
+## <a name="appendix"></a> Appendix
+
+### Gulp tasks available in **pip-webui**
+
+- **gulp clean** - cleanup for all submodules
+- **gulp build** - build for all submodules (make sure you did **bower install** in **pip-webui-lib**)
+- **gulp version -v x.y.z** - Setting a new version for the parent module and all submodules
+- **gulp checkin -m "Commit message"** - Git commit and push for the parent module and all submodules (use carefully!)
+- **gulp release** - Setting current version tags and publishing binary releases
