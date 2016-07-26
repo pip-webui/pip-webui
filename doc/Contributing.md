@@ -46,12 +46,6 @@ We will be using GitHub Issues for our public bugs. We will keep a close eye on 
 
 The best way to get your bug fixed is to provide a reduced test case. jsFiddle, jsBin, and other sites provide a way to give live examples.
 
-## How to Get in Touch
-
-* Discussion forum - [Pip Dev Forum](https://groups.google.com/forum/#!forum/pipdevs)
-
-## Meeting Notes
-
 ## Style Guide
 
 Our linter will catch most styling issues that may exist in your code.
