@@ -1,7 +1,8 @@
 rem Get submodules
 git submodule init
 git submodule update
-git submodule foreach git pull origin master
+git submodule foreach git checkout master
+git submodule foreach git pull
 
 rem Create folder for npm modules
 mkdir node_modules
