@@ -33,8 +33,8 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
 
 <br/>Pip.WebUI Modules:
 <table>
-<tr width="30%"><td> <a href="https://github.com/pip-webui/pip-webui-tasks">pip-webui-tasks</a> </td><td> Gulp build tasks </td></tr>
-<tr width="70%"><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
+<tr><td width="30%"> <a href="https://github.com/pip-webui/pip-webui-tasks">pip-webui-tasks</a> </td><td width="70%"> Gulp build tasks </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-css">pip-webui-css</a> </td><td> CSS framework to extend Angular Material styles with animations visual effects and web components </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-core">pip-webui-core</a> </td><td> Core services: localization, themes, error handling,
 infinite scroll, draggable, selection behaviors, and more... </td></tr>
