@@ -1,6 +1,6 @@
 rem Get submodules
 git submodule init
-git submodule update
+git submodule update --remove
 git submodule foreach git checkout master
 git submodule foreach git pull
 
@@ -51,3 +51,7 @@ mklink /J pip-webui\node_modules node_modules
 
 rem Install 3rd party npm modules
 npm install
+
+rem Install 3rd party bower modules
+cd pip-webui-lib
+bower install

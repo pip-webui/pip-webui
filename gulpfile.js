@@ -24,19 +24,25 @@ var submodules = [
     'pip-webui'
 ];
 
+function execTask(cwd, command) {
+    return function(callback) {
+        var options = {
+            cwd: cwd
+        };
+        exec(command, options, function(err, stdout, stderr) {
+            if (stdout) console.log('stdout: ' + stdout);
+            if (stderr) console.log('stderr: ' + stderr);
+            callback(err);
+        });
+    };
+}
+
 function submoduleTask(command) {
     return function(callback) {
         async.eachSeries(
             submodules, 
             function(submodule, callback) {
-                var options = {
-                    cwd: './' + submodule
-                };
-                exec('gulp build', options, function(err, stdout, stderr) {
-                    if (stdout) console.log('stdout: ' + stdout);
-                    if (stderr) console.log('stderr: ' + stderr);
-                    callback(err);
-                });
+                execTask('./' + submodule, command)(callback);
             },
             function (err) {
                 callback(err);
