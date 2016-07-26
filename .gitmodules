@@ -16,3 +16,6 @@
 [submodule "pip-webui-controls"]
 	path = pip-webui-controls
 	url = https://github.com/pip-webui/pip-webui-controls.git
+[submodule "pip-webui-locations"]
+	path = pip-webui-locations
+	url = https://github.com/pip-webui/pip-webui-locations.git
