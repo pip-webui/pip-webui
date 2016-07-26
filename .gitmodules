@@ -43,3 +43,6 @@
 [submodule "pip-webui-settings"]
 	path = pip-webui-settings
 	url = https://github.com/pip-webui/pip-webui-settings.git
+[submodule "pip-webui-help"]
+	path = pip-webui-help
+	url = https://github.com/pip-webui/pip-webui-help.git
