@@ -1,57 +1,76 @@
 [submodule "pip-webui-test"]
 	path = pip-webui-test
 	url = https://github.com/pip-webui/pip-webui-test.git
+	branch = master
 [submodule "pip-webui-lib"]
 	path = pip-webui-lib
 	url = https://github.com/pip-webui/pip-webui-lib.git
+	branch = master
 [submodule "pip-webui-css"]
 	path = pip-webui-css
 	url = https://github.com/pip-webui/pip-webui-css.git
+	branch = master
 [submodule "pip-webui-core"]
 	path = pip-webui-core
 	url = https://github.com/pip-webui/pip-webui-core.git
+	branch = master
 [submodule "pip-webui-rest"]
 	path = pip-webui-rest
 	url = https://github.com/pip-webui/pip-webui-rest.git
+	branch = master
 [submodule "pip-webui-controls"]
 	path = pip-webui-controls
 	url = https://github.com/pip-webui/pip-webui-controls.git
+	branch = master
 [submodule "pip-webui-locations"]
 	path = pip-webui-locations
 	url = https://github.com/pip-webui/pip-webui-locations.git
+	branch = master
 [submodule "pip-webui-pictures"]
 	path = pip-webui-pictures
 	url = https://github.com/pip-webui/pip-webui-pictures.git
+	branch = master
 [submodule "pip-webui-nav"]
 	path = pip-webui-nav
 	url = https://github.com/pip-webui/pip-webui-nav.git
+	branch = master
 [submodule "pip-webui-layouts"]
 	path = pip-webui-layouts
 	url = https://github.com/pip-webui/pip-webui-layouts.git
+	branch = master
 [submodule "pip-webui-documents"]
 	path = pip-webui-documents
 	url = https://github.com/pip-webui/pip-webui-documents.git
+	branch = master
 [submodule "pip-webui-composite"]
 	path = pip-webui-composite
 	url = https://github.com/pip-webui/pip-webui-composite.git
+	branch = master
 [submodule "pip-webui-errors"]
 	path = pip-webui-errors
 	url = https://github.com/pip-webui/pip-webui-errors.git
+	branch = master
 [submodule "pip-webui-entry"]
 	path = pip-webui-entry
 	url = https://github.com/pip-webui/pip-webui-entry.git
+	branch = master
 [submodule "pip-webui-settings"]
 	path = pip-webui-settings
 	url = https://github.com/pip-webui/pip-webui-settings.git
+	branch = master
 [submodule "pip-webui-help"]
 	path = pip-webui-help
 	url = https://github.com/pip-webui/pip-webui-help.git
+	branch = master
 [submodule "pip-webui-guidance"]
 	path = pip-webui-guidance
 	url = https://github.com/pip-webui/pip-webui-guidance.git
+	branch = master
 [submodule "pip-webui-support"]
 	path = pip-webui-support
 	url = https://github.com/pip-webui/pip-webui-support.git
+	branch = master
 [submodule "pip-webui-all"]
 	path = pip-webui-all
 	url = https://github.com/pip-webui/pip-webui-all.git
+	branch = master
