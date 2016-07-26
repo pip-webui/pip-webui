@@ -25,3 +25,6 @@
 [submodule "pip-webui-nav"]
 	path = pip-webui-nav
 	url = https://github.com/pip-webui/pip-webui-nav.git
+[submodule "pip-webui-layouts"]
+	path = pip-webui-layouts
+	url = https://github.com/pip-webui/pip-webui-layouts.git
