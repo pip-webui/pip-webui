@@ -1,0 +1,51 @@
+{
+  "name": "pip-webui-devenv",
+  "version": "1.1.0",
+  "author": "Digital Living Software Corp. <www.digitallivingsoftware.com>",
+  "description": "Development environment for Pip.WebUI project",
+  "contributors": [
+    {
+      "name": "Sergey Seroukhov",
+      "email": "seroukhov@gmail.com"
+    },
+    {
+      "name": "Mark Zontak",
+      "email": "mark@zontak.me"
+    },
+    {
+      "name": "Alexey Dvoikin",
+      "email": "94dvoikin@gmail.com"
+    },
+    {
+      "name": "Anastas Fonotov",
+      "email": "anastasf@gmail.com"
+    },
+    {
+      "name": "Katerina Negrienko",
+      "email": "katya@negrienko.com"
+    }
+  ],
+  "keywords": [
+    "pip",
+    "webui",
+    "framework",
+    "controls",
+    "css",
+    "styles"
+  ],
+  "noAnalyze": true,
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "lint": "gulp lint"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "pip-webui-tasks": "git+https://github.com/pip-webui/pip-webui-tasks.git",
+    "gulp-merge": "*",
+    "jshint": "*",
+    "gulp-jshint": "*"
+  }
+}
