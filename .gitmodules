@@ -4,3 +4,6 @@
 [submodule "pip-webui-lib"]
 	path = pip-webui-lib
 	url = https://github.com/pip-webui/pip-webui-lib.git
+[submodule "pip-webui-css"]
+	path = pip-webui-css
+	url = https://github.com/pip-webui/pip-webui-css.git
