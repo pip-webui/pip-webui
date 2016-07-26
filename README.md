@@ -31,10 +31,10 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
   <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/WebUI-1.png" alt="Pip.WebUI Structure" style="display:block;">
 </div>
 
-Pip.WebUI Modules:
+<br/>Pip.WebUI Modules:
 <table>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-tasks">pip-webui-tasks</a> </td><td> Gulp build tasks </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
+<tr width="30%"><td> <a href="https://github.com/pip-webui/pip-webui-tasks">pip-webui-tasks</a> </td><td> Gulp build tasks </td></tr>
+<tr width="70%"><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-css">pip-webui-css</a> </td><td> CSS framework to extend Angular Material styles with animations visual effects and web components </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-core">pip-webui-core</a> </td><td> Core services: localization, themes, error handling,
 infinite scroll, draggable, selection behaviors, and more... </td></tr>
@@ -47,7 +47,7 @@ infinite scroll, draggable, selection behaviors, and more... </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-pictures">pip-webui-pictures</a> </td><td> picture view and editing controls, collage, avatars </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-composite">pip-webui-composite</a> </td><td> composite view and editing control for complex mixed content </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-entry">pip-webui-entry</a> </td><td> user signin, signup, password recovery and email verification pages </td></tr>
-<tr><td> [<a href="https://github.com/pip-webui/pip-webui-errors">pip-webui-errors</a> </td><td> error handling pages and controls </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-errors">pip-webui-errors</a> </td><td> error handling pages and controls </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-settings">pip-webui-settings</a> </td><td> application settings page </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-guidance">pip-webui-guidance</a> </td><td> user context guidance, inspirational quotes, intro dialogs </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-help">pip-webui-help</a> </td><td> integrated help page </td></tr>
