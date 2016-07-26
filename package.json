@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "pip-webui-tasks": "git+https://github.com/pip-webui/pip-webui-tasks.git",
+    "async": "*",
     "gulp": "*",
     "gulp-merge": "*",
     "jshint": "*",
