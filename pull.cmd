@@ -1,2 +1,3 @@
-rem git submodule foreach git pull origin master
-git submodule update --remote
+git pull
+git submodule foreach git pull origin master
+rem git submodule update --remote
