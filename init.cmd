@@ -1,6 +1,6 @@
 rem Get submodules
 git submodule init
-git submodule update --remove
+git submodule update --remote
 git submodule foreach git checkout master
 git submodule foreach git pull
 
