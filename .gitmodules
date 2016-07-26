@@ -46,3 +46,6 @@
 [submodule "pip-webui-help"]
 	path = pip-webui-help
 	url = https://github.com/pip-webui/pip-webui-help.git
+[submodule "pip-webui-guidance"]
+	path = pip-webui-guidance
+	url = https://github.com/pip-webui/pip-webui-guidance.git
