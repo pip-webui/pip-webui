@@ -28,3 +28,6 @@
 [submodule "pip-webui-layouts"]
 	path = pip-webui-layouts
 	url = https://github.com/pip-webui/pip-webui-layouts.git
+[submodule "pip-webui-documents"]
+	path = pip-webui-documents
+	url = https://github.com/pip-webui/pip-webui-documents.git
