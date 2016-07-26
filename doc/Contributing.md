@@ -1,10 +1,9 @@
-# Contributing to [Pip.WebUI framework](https://github.com/pip-webui/pip-webui)
+# Contributing to Pip.WebUI
 
-Pip.WebUI is Enterprise Framework part of [Piplife](ttps://piplife.com)
+We are welcome any volunteer who is willing to contibute to this project. You can use github pull requests to offer your changes
+or you may become the part of the core development team. There are lots of things to do from development to documentation and testing.
+If you decide to join, please, send a message via github to **Sergey Seroukhov**, who is the current project manager.
 
-## [Code of Conduct]()
- TBD
- 
 ## Our Development Process
 
 Some of the core team will be working directly on GitHub. These changes will be public from the beginning.
