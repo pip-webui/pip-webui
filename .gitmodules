@@ -40,3 +40,6 @@
 [submodule "pip-webui-entry"]
 	path = pip-webui-entry
 	url = https://github.com/pip-webui/pip-webui-entry.git
+[submodule "pip-webui-settings"]
+	path = pip-webui-settings
+	url = https://github.com/pip-webui/pip-webui-settings.git
