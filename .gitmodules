@@ -7,3 +7,6 @@
 [submodule "pip-webui-css"]
 	path = pip-webui-css
 	url = https://github.com/pip-webui/pip-webui-css.git
+[submodule "pip-webui-core"]
+	path = pip-webui-core
+	url = https://github.com/pip-webui/pip-webui-core.git
