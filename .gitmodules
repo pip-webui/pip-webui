@@ -52,7 +52,6 @@
 [submodule "pip-webui-support"]
 	path = pip-webui-support
 	url = https://github.com/pip-webui/pip-webui-support.git
-
 [submodule "pip-webui-all"]
 	path = pip-webui-all
 	url = https://github.com/pip-webui/pip-webui-all.git
