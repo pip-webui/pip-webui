@@ -31,3 +31,6 @@
 [submodule "pip-webui-documents"]
 	path = pip-webui-documents
 	url = https://github.com/pip-webui/pip-webui-documents.git
+[submodule "pip-webui-composite"]
+	path = pip-webui-composite
+	url = https://github.com/pip-webui/pip-webui-composite.git
