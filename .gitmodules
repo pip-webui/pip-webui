@@ -1,0 +1,3 @@
+[submodule "pip-webui-test"]
+	path = pip-webui-test
+	url = https://github.com/pip-webui/pip-webui-test.git
