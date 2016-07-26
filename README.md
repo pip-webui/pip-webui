@@ -66,9 +66,9 @@ infinite scroll, draggable, selection behaviors, and more... </td></tr>
 - [Pip.WebUI team blog](https://pip-webui.blogspot.com/)
 - [Contributing to Pip.WebUI](https://github.com/pip-webui/pip-webui/blob/master/doc/Contributing.md)
 
-## License agreement
-
-Pip.WebUI is released under [MIT license](License) and totally free for commercial and non-commercial use.
+## Compatibility
+ * Browsers: IE11+, Edge, Chrome 47+, Firefox 43, Opera 35
+ * OSes: Windows, Windows Phone, MacOS, iOS, Android
 
 ## Acknowledgements
 
@@ -82,16 +82,13 @@ This project would not be possible without effort contributed by particular indi
 - **Kate Negrienko** - web development
 - **Andrey Podgorniy** - code cleanup and documentation
 
-## Browsers support
- * IE11+
- * Edge
- * Chrome 47+
- * Firefox 43
- * Opera 35
-
 We also would like to recognize help received from the following companies.
 
 - **Digital Living Software Corp.**
 - [**Conceptual Vision Consulting**](http://www.conceptualvisionconsulting.com)
 - [**Modular Mining Systems Inc.**](http://www.mmsi.com)
 - [**EPAM**](http://www.epam.com)
+
+## License agreement
+
+Pip.WebUI is released under [MIT license](License) and totally free for commercial and non-commercial use.
