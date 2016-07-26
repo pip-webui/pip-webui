@@ -13,3 +13,6 @@
 [submodule "pip-webui-rest"]
 	path = pip-webui-rest
 	url = https://github.com/pip-webui/pip-webui-rest.git
+[submodule "pip-webui-controls"]
+	path = pip-webui-controls
+	url = https://github.com/pip-webui/pip-webui-controls.git
