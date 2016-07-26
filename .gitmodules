@@ -19,3 +19,6 @@
 [submodule "pip-webui-locations"]
 	path = pip-webui-locations
 	url = https://github.com/pip-webui/pip-webui-locations.git
+[submodule "pip-webui-pictures"]
+	path = pip-webui-pictures
+	url = https://github.com/pip-webui/pip-webui-pictures.git
