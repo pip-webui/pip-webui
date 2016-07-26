@@ -22,3 +22,6 @@
 [submodule "pip-webui-pictures"]
 	path = pip-webui-pictures
 	url = https://github.com/pip-webui/pip-webui-pictures.git
+[submodule "pip-webui-nav"]
+	path = pip-webui-nav
+	url = https://github.com/pip-webui/pip-webui-nav.git
