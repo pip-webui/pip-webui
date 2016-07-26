@@ -37,3 +37,6 @@
 [submodule "pip-webui-errors"]
 	path = pip-webui-errors
 	url = https://github.com/pip-webui/pip-webui-errors.git
+[submodule "pip-webui-entry"]
+	path = pip-webui-entry
+	url = https://github.com/pip-webui/pip-webui-entry.git
