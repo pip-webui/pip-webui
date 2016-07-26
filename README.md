@@ -56,12 +56,15 @@ infinite scroll, draggable, selection behaviors, and more... </td></tr>
 
 ## Learn more about Pip.WebUI
 
-- [Getting started guide](https://github.com/pip-webui/pip-webui-sample)
+- [Getting started](https://github.com/pip-webui/pip-webui-sample)
+- [User's guide](https://github.com/pip-webui/pip-webui/blob/master/doc/UsersGuide.md)
+- [Developer's guide](https://github.com/pip-webui/pip-webui/blob/master/doc/DevelopersGuide.md)
 - [UX Concept implemented by Pip.WebUI](https://github.com/pip-webui/pip-webui-ux)
 - [Online samples](http://webui.pipdevs.com)
 - [API documentation](http://webui-api.pipdevs.com)
 - [Pip.WebUI discussion forum](https://groups.google.com/forum/#!forum/pip-webui)
 - [Pip.WebUI team blog](https://pip-webui.blogspot.com/)
+- [Contributing to Pip.WebUI](https://github.com/pip-webui/pip-webui/blob/master/doc/Contributing.md)
 
 ## License agreement
 
@@ -71,8 +74,8 @@ Pip.WebUI is released under [MIT license](License) and totally free for commerci
 
 This project would not be possible without effort contributed by particular individuals.
 
-- **Sergey Seroukhov** - the project founder, architecture, implementation
-- **Mark Zontak** - team management, implementation
+- **Sergey Seroukhov** - the project founder, architecture, web development and documentation
+- **Mark Zontak** - team management and web development
 - **Alex Masliev** - UX concept, interaction and graphical design
 - **Anastas Fonotov** - web development
 - **Alex Dvoykin** - web development
