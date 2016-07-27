@@ -64,7 +64,7 @@ infinite scroll, draggable, selection behaviors, and more... </td></tr>
 - [API documentation](http://webui-api.pipdevs.com)
 - [Pip.WebUI discussion forum](https://groups.google.com/forum/#!forum/pip-webui)
 - [Pip.WebUI team blog](https://pip-webui.blogspot.com/)
-- [Contributing to Pip.WebUI](https://github.com/pip-webui/pip-webui/blob/master/doc/Contributing.md)
+- [Contributing to Pip.WebUI](https://github.com/pip-webui/pip-webui/blob/master/doc/ContributorsGuide.md)
 
 ## Compatibility
  * Browsers: IE11+, Edge, Chrome 47+, Firefox 43, Opera 35
