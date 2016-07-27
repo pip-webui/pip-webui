@@ -1,10 +1,10 @@
 rem install global tools
-npm install gulp-cli -g
-npm install bower -g
-npm install mocha -g
-npm install typescript -g
-npm install tsd -d
-npm install typedoc -g
+rem npm install gulp-cli -g
+rem npm install bower -g
+rem npm install mocha -g
+rem npm install typescript -g
+rem npm install tsd -d
+rem npm install typedoc -g
 
 rem Get submodules
 git submodule init
