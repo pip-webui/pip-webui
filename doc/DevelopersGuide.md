@@ -1,80 +1,138 @@
 # Pip.WebUI Developer's Guide
 
-This document provides high-level instructions on how to build and test the project.
+This is the master project for all Pip.WebUI modules. Its purpose to provide easy-to-use development environment
+and simplify dependency management across modules. Although it is optional, it is highly recommended to use it.
 
-* [Environment Setup](#setup)
-* [Installation](#install)
+## <a name="contents"></a> Contents
+
+* [Installing](#install)
+* [Developing](#develop)
 * [Building](#build)
 * [Testing](#test)
-* [Contributing](#contrib) 
-* [Appendix](#appendix)
+* [Releasing](#release)
+* [Contributing](#contrib)
 
-## <a name="setup"></a> Environment Setup
+## <a name="install"></a> Installing
 
-Must be installed **[Node.js](https://nodejs.org/)**. If not installed, you can download [here](https://nodejs.org/en/download/).
+1\. - Download and install Node.js from https://nodejs.org/en/download/
 
-## <a name="install"></a> Installation
-
-TBD...
-
-## <a name="build"></a> Building
-
-Developers can easily build the project using NPM and gulp.
-
-First install or update your local project's **npm** tools:
+2\. - Install required build and test tools.
 
 ```bash
-# First install all the NPM tools:
-npm install
+npm install gulp-cli -g
+npm install mocha -g
+```
 
-# Or update
+3\. Clone the project from github repository.
+
+```bash
+git clone https://github.com/pip-webui/pip-webui.git
+```
+
+4\. Initialize the project
+
+Pull from github submodules, create links to **node_modules** folder for all submodules,
+install bower and npm dependencies:
+```bash
+install.cmd
+```
+
+Or update dependencies after they were installed:
+```bash
 npm update
 ```
 
-Then run the **gulp** tasks:
+## <a name="develop"></a> Developing
+
+### Check in / push changes
+
+The development is done as usual under specific modules. But when you commit, you shall do it twice: 
+commit and push changes in the submodule you worked on, then commit and push changes from the master project.
 
 ```bash
-# To clean '/build' and '/dist' directories
-gulp clean
+cd <submodule>
+git add -A .
+git commit -am "You message"
+git push
 
-# To build distribution files in the `/dist` directory
+cd ..
+git commit -am "You message"
+git push
+```
+
+To simplify commits you can use gulp task in the master project:
+```bash
+gulp checkin -m "Your message"
+```
+
+### Check out / pull changes
+
+To pull all submodules in one command run the following gulp task from the master project:
+```bash
+gulp pull
+```
+
+### Known issues
+
+- Visual Studio Code, and, possibly, other IDEs periodically call git to check its status. That creates lock file in **.git** folder and cause 'gulp pull' and 'gulp checkin' commands to fail. To avoid that close your IDE and repeat the command.
+
+- Sometimes submodules switch to detach mode and push fails. To fix that do:
+```bash
+cd <detauched submodule>
+git checkout origin master
+git pull
+```
+
+## <a name="build"></a> Building
+
+Clean **/build** and **/dist** directories across all submodules. It is an optional step to ensure you removed any garbage.
+```bash
+gulp clean
+```
+
+Build source code across all submodules. It will automatically check for errors and regenerate API documentation.
+If any error found the build will fail.
+```
 gulp build
 ```
 
 ## <a name="test"></a> Testing
-Run **gulp** task:
 
+Execute unit tests in all submodules:
 ```bash
-# to test 
 gulp test
-
-# for linting codestyle
-gulp js-lint
 ```
 
+Check for errors in coding style in all submodules:
+```bash
+gulp eslint
+```
+
+## <a name="releasing"></a> Releasing
+
+1\. Prepare all submodules for release. Check and update **CHANGELOG.md** files.
+
+2\. Change version number in the master project and all submodules.
+
+```bash
+gulp version -v x.y.z
+```
+
+3\. Check in changes to the repository
+
+```bash
+gulp checkin -m "Moving to x.v.z version"
+```
+
+4\. Publish release to the global NPM repository.
+
+Remember: to publish to NPM you must have proper permissions from the team.
+```bash
+npm login
+gulp release
+```
 
 ## <a name="contrib"></a> Contributing
 
-Developers interested in contributing should read the following guidelines:
-
-* [Issue Guidelines](https://github.com/pip-webui/pip-webui/blob/master/doc/Contributing.md#bugs)
-* [Contributing Guidelines](https://github.com/pip-webui/pip-webui/blob/master/doc/Contributing.md)
-* [Coding guidelines](https://github.com/pip-webui/pip-webui/blob/master/doc/Contributing.md#style-guide)
-
-It is important to note that for each release, the [ChangeLog](../CHANGELOG.md) is a resource that will
-itemize all:
-
-- Bug Fixes
-- New Features
-- Breaking Changes
-
-
-## <a name="appendix"></a> Appendix
-
-### Gulp tasks available in **pip-webui**
-
-- **gulp clean** - cleanup for all submodules
-- **gulp build** - build for all submodules (make sure you did **bower install** in **pip-webui-lib**)
-- **gulp version -v x.y.z** - Setting a new version for the parent module and all submodules
-- **gulp checkin -m "Commit message"** - Git commit and push for the parent module and all submodules (use carefully!)
-- **gulp release** - Setting current version tags and publishing binary releases
+For those who would like to contribute to the project as external contributor or become a part of Pip.WebUI team, 
+please, read [Contributor's Guide](https://github.com/pip-webui/pip-webui/blob/master/doc/ContributorsGuide.md).
