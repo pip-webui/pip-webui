@@ -28,7 +28,7 @@ var submodules = [
     'pip-webui-all'
 ];
 
-function execTask(cwd, command) {
+function execTask(cwd, command, force) {
     return function(callback) {
         
         var options = {
@@ -40,21 +40,23 @@ function execTask(cwd, command) {
         exec(command, options, function(err, stdout, stderr) {
             if (stdout) console.log(stdout);
             if (stderr) console.error(stderr);
-            callback(err);
+
+            if (!force) callback(err);
+            else callback();
         });
     };
 }
 
-function parentTask(command) {
-    return execTask('.', command);
+function parentTask(command, force) {
+    return execTask('.', command, force);
 }
 
-function submodulesTask(command) {
+function submodulesTask(command, force) {
     return function(callback) {
         async.eachSeries(
             submodules, 
             function(submodule, callback) {
-                execTask('./' + submodule, command)(callback);
+                execTask('./' + submodule, command, force)(callback);
             },
             function (err) {
                 callback(err);
@@ -98,10 +100,10 @@ function globalCheckin(message) {
     return function(callback) {
         async.series([
             submodulesTask('git add -A .'),
-            submodulesTask('git commit -am "' + message + '"'),
+            submodulesTask('git commit -am "' + message + '"', true),
             submodulesTask('git push'),
             parentTask('git add -A .'),
-            parentTask('git commit -am "' + message + '"'),
+            parentTask('git commit -am "' + message + '"', true),
             parentTask('git push')
         ], callback);
     };
