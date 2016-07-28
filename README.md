@@ -31,7 +31,7 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
   <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/WebUI-1.png" alt="Pip.WebUI Structure" style="display:block;">
 </div>
 
-<br/>Pip.WebUI Modules:
+### Pip.WebUI Modules
 <table>
 <tr><td width="30%"> <a href="https://github.com/pip-webui/pip-webui-tasks">pip-webui-tasks</a> </td><td width="70%"> Gulp build tasks </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
@@ -54,21 +54,21 @@ infinite scroll, draggable, selection behaviors, and more... </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-support">pip-webui-support</a> </td><td> user support and feedback pages </td></tr>
 </table>
 
+### Compatibility
+ * Browsers: IE11+, Edge, Chrome 47+, Firefox 43, Opera 35
+ * OSes: Windows, Windows Phone, MacOS, iOS, Android
+ * 3rd Party Libraries: Angular 1.5.5+, Angular Material 1.0.8+
+
 ## Learn more about Pip.WebUI
 
 - [Getting started](https://github.com/pip-webui/pip-webui-sample)
-- [User's guide](https://github.com/pip-webui/pip-webui/blob/master/doc/UsersGuide.md)
-- [Developer's guide](https://github.com/pip-webui/pip-webui/blob/master/doc/DevelopersGuide.md)
-- [UX Concept implemented by Pip.WebUI](https://github.com/pip-webui/pip-webui-ux)
 - [Online samples](http://webui.pipdevs.com)
 - [API documentation](http://webui-api.pipdevs.com)
+- [UX Concept implemented by Pip.WebUI](https://github.com/pip-webui/pip-webui-ux)
 - [Pip.WebUI discussion forum](https://groups.google.com/forum/#!forum/pip-webui)
 - [Pip.WebUI team blog](https://pip-webui.blogspot.com/)
+- [Developer's guide](https://github.com/pip-webui/pip-webui/blob/master/doc/DevelopersGuide.md)
 - [Contributing to Pip.WebUI](https://github.com/pip-webui/pip-webui/blob/master/doc/ContributorsGuide.md)
-
-## Compatibility
- * Browsers: IE11+, Edge, Chrome 47+, Firefox 43, Opera 35
- * OSes: Windows, Windows Phone, MacOS, iOS, Android
 
 ## Acknowledgements
 
@@ -84,10 +84,10 @@ This project would not be possible without effort contributed by particular indi
 
 We also would like to recognize help received from the following companies.
 
-- **Digital Living Software Corp.**
-- [**Conceptual Vision Consulting**](http://www.conceptualvisionconsulting.com)
+- [**Digital Living Software Corp.**]()
+- [**Conceptual Vision Consulting LLC**](http://www.conceptualvisionconsulting.com)
 - [**Modular Mining Systems Inc.**](http://www.mmsi.com)
-- [**EPAM**](http://www.epam.com)
+- [**EPAM Systems**](http://www.epam.com)
 
 ## License agreement
 
