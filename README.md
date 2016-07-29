@@ -64,6 +64,7 @@ infinite scroll, draggable, selection behaviors, and more... </td></tr>
 - [Getting started](https://github.com/pip-webui/pip-webui-sample)
 - [Online samples](http://webui.pipdevs.com)
 - [API documentation](http://webui-api.pipdevs.com)
+- [Frequently Asked Questions](https://github.com/pip-webui/pip-webui/wiki/Frequently-Asked-Questions)
 - [UX Concept implemented by Pip.WebUI](https://github.com/pip-webui/pip-webui-ux)
 - [Pip.WebUI project wiki](https://github.com/pip-webui/pip-webui/wiki)
 - [Pip.WebUI discussion forum](https://groups.google.com/forum/#!forum/pip-webui)
