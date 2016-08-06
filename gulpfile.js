@@ -66,6 +66,18 @@ function submodulesTask(command, force) {
 }
 
 function submodulesVersion(version) {
+    function updateVersion(file) {
+        if (fs.existsSync(file)) {
+            console.log("Updating version at '" + file + "'");
+
+            var obj = require(file);
+            obj.version = version;
+
+            var content = JSON.stringify(obj, null, 4);
+            fs.writeFileSync(file, content);
+        }
+    }
+
     return function(callback) {
         var allModules = ['.'];
         allModules = allModules.concat(submodules);
@@ -75,16 +87,12 @@ function submodulesVersion(version) {
             function(submodule, callback) {
                 try {
                     var pkgFile = './' + submodule + '/package.json';
+                    updateVersion(pkgFile);
 
-                    console.log("Updating version at '" + pkgFile + "'");
+                    var bowerFile = './' + submodule + '/bower.json';
+                    updateVersion(bowerFile);
 
-                    var pkg = require(pkgFile);
-                    pkg.version = version;
-                    pkg.private = false;
-                    pkg.license = "MIT";
-
-                    var pkgContent = JSON.stringify(pkg, null, 4);
-                    fs.writeFile(pkgFile, pkgContent, callback);
+                    callback();
                 } catch (error) {
                     callback(error);
                 }
@@ -122,3 +130,15 @@ gulp.task('pull', function(callback) {
 gulp.task('version', submodulesVersion(argv.v || pkg.version));
 
 gulp.task('checkin', globalCheckin(argv.m || 'Global checking'));
+
+gulp.task('publish', function(callback) {
+    var pkg = require('./package.json');
+
+    async.series([
+        submodulesTask('git tag v' + pkg.version),
+        submodulesTask('git push --tags'),
+        submodulesTask('npm publish'),
+        parentTask('git tag v' + pkg.version),
+        parentTask('git push --tags')
+    ], callback);
+});
