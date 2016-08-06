@@ -7,8 +7,8 @@ var pkg = require('./package.json');
 var argv = require('minimist')(process.argv.slice(2));
 
 var submodules = [
-    'pip-webui-lib',
-    'pip-webui-test',
+    // 'pip-webui-lib',
+    // 'pip-webui-test',
     'pip-webui-css',
     'pip-webui-core',
     'pip-webui-rest',
@@ -135,8 +135,8 @@ gulp.task('publish', function(callback) {
     var pkg = require('./package.json');
 
     async.series([
-        submodulesTask('git tag v' + pkg.version),
-        submodulesTask('git push --tags'),
+        // submodulesTask('git tag v' + pkg.version),
+        // submodulesTask('git push --tags'),
         submodulesTask('npm publish'),
         parentTask('git tag v' + pkg.version),
         parentTask('git push --tags')
