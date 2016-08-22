@@ -1,4 +1,4 @@
-# <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> HTML5 UI Framework for Line-of-Business Applications 
+# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> HTML5 UI Framework for Line-of-Business Applications 
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -20,7 +20,7 @@ They were put together to implement consistent and rich [User Experience](https:
 following [Google Material](https://material.google.com) design style.
 
 <div style="border: 1px solid #ccc">
-  <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/WebUI-0.png" alt="Pip.WebUI Overview" style="display:block;">
+  <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/WebUI-0.png" alt="Pip.WebUI Overview" style="display:block;">
 </div>
 
 The framework is based on popular [Angular](https://angularjs.org) framework 
@@ -28,7 +28,7 @@ and [Angular Material](https://material.angularjs.org/latest) library of web con
 Pip.WebUI provides a set of modules targeted toward LOB application development.
 
 <div style="border: 1px solid #ccc">
-  <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/WebUI-1.png" alt="Pip.WebUI Structure" style="display:block;">
+  <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/WebUI-1.png" alt="Pip.WebUI Structure" style="display:block;">
 </div>
 
 ### Pip.WebUI Modules
