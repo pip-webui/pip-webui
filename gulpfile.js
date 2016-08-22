@@ -16,4 +16,5 @@ gulp.task('checkin', ['submodules-checkin']);
 gulp.task('commit', ['submodules-checkin']);
 
 gulp.task('version', ['submodules-version']);
+gulp.task('tag', ['submodules-tag']);
 gulp.task('publish', ['submodules-publish']);
