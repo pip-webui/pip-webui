@@ -21,6 +21,7 @@ module.exports = {
         'pip-webui-guidance',
         'pip-webui-settings',
         'pip-webui-support',
+        'pip-webui-data',
         'pip-webui-all'
     ]
 };

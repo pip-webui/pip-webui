@@ -74,3 +74,9 @@
 	path = pip-webui-all
 	url = https://github.com/pip-webui/pip-webui-all.git
 	branch = master
+[submodule "pip-webui-data"]
+	path = pip-webui-data
+	url = git@github.com:pip-webui/pip-webui-data.git
+[submodule "pip-webui-sample"]
+	path = pip-webui-sample
+	url = git@github.com:pip-webui/pip-webui-sample.git
