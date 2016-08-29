@@ -88,6 +88,7 @@ We also would like to recognize help received from the following companies.
 
 - [**Digital Living Software Corp.**]()
 - [**Conceptual Vision Consulting LLC**](http://www.conceptualvisionconsulting.com)
+- [**T&I Labs Inc.**]()
 - [**Modular Mining Systems Inc.**](http://www.mmsi.com)
 - [**EPAM Systems**](http://www.epam.com)
 
