@@ -6,8 +6,9 @@ module.exports = {
         'pip-webui-lib',
         'pip-webui-test',
         'pip-webui-css',
-        'pip-webui-core',
         'pip-webui-rest',
+        'pip-webui-data',
+        'pip-webui-core',
         'pip-webui-controls',
         'pip-webui-layouts',
         'pip-webui-nav',
@@ -21,7 +22,6 @@ module.exports = {
         'pip-webui-guidance',
         'pip-webui-settings',
         'pip-webui-support',
-        'pip-webui-data',
         'pip-webui-all'
     ]
 };
