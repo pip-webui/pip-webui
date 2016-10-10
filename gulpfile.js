@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 
 // Add submodules tasks
-require('pip-webui-tasks').submodules();
+require('pip-webui-tasks').submodules(gulp);
 
 gulp.task('init', ['submodules-init', 'submodules-link']);
 gulp.task('link', ['submodules-link']);
