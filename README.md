@@ -35,23 +35,16 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
 <table>
 <tr><td width="30%"> <a href="https://github.com/pip-webui/pip-webui-tasks">pip-webui-tasks</a> </td><td width="70%"> Gulp build tasks </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-css">pip-webui-css</a> </td><td> CSS framework to extend Angular Material styles with animations visual effects and web components </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-core">pip-webui-core</a> </td><td> Core services: localization, themes, error handling,
-infinite scroll, draggable, selection behaviors, and more... </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-rest">pip-webui-rest</a> </td><td> Customizable REST API for connected controls </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-layouts">pip-webui-layouts</a> </td><td> application layouts: simple, document, master-detail, tiles, split, dialog </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-cssframework">pip-webui-cssframework</a> </td><td> CSS framework to extend Angular Material styles with animations visual effects </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-csscomponents">pip-webui-csscomponents</a> </td><td> Light-weight components implemented using CSS styles </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-core">pip-webui-core</a> </td><td> Core services: localization, error handling, infinite scroll, draggable, selection behaviors, and more... </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-themes">pip-webui-themes</a> </td><td> Support for custom color themes </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-controls">pip-webui-controls</a> </td><td> basic controls: color picker, toggle buttons, popover, dialogs and more... </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-dates">pip-webui-dates</a> </td><td>Controls and services to work with dates and times </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-layouts">pip-webui-layouts</a> </td><td> application layouts: simple, document, master-detail, tiles, dialog </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-split">pip-webui-split</a> </td><td> split layout to organize complex hierarchical content </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-nav">pip-webui-nav</a> </td><td> navigation mechanisms: appbar and sidenav </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-locations">pip-webui-locations</a> </td><td> location view and editing controls </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-documents">pip-webui-documents</a> </td><td> document browsing and upload controls </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-pictures">pip-webui-pictures</a> </td><td> picture view and editing controls, collage, avatars </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-composite">pip-webui-composite</a> </td><td> composite view and editing control for complex mixed content </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-entry">pip-webui-entry</a> </td><td> user signin, signup, password recovery and email verification pages </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-errors">pip-webui-errors</a> </td><td> error handling pages and controls </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-settings">pip-webui-settings</a> </td><td> application settings page </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-guidance">pip-webui-guidance</a> </td><td> user context guidance, inspirational quotes, intro dialogs </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-help">pip-webui-help</a> </td><td> integrated help page </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-support">pip-webui-support</a> </td><td> user support and feedback pages </td></tr>
 </table>
 
 ### Compatibility
