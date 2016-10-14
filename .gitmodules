@@ -22,6 +22,10 @@
 	path = pip-webui-controls
 	url = git@github.com:pip-webui/pip-webui-controls.git
 	branch = master
+[submodule "pip-webui-dialogs"]
+	path = pip-webui-dialogs
+	url = git@github.com:pip-webui/pip-webui-dialogs.git
+	branch = master
 [submodule "pip-webui-split"]
 	path = pip-webui-split
 	url = git@github.com:pip-webui/pip-webui-split.git

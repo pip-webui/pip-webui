@@ -9,6 +9,7 @@ module.exports = {
         'pip-webui-core',
         'pip-webui-themes',
         'pip-webui-controls',
+        'pip-webui-dialogs',
         'pip-webui-dates',
         'pip-webui-charts',
         'pip-webui-layouts',
