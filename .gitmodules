@@ -46,3 +46,7 @@
 	path = pip-webui-all
 	url = git@github.com:pip-webui/pip-webui-all.git
 	branch = master
+[submodule "pip-webui-charts"]
+	path = pip-webui-charts
+	url = git@github.com:pip-webui/pip-webui-charts.git
+	branch = master
