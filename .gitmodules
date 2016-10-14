@@ -77,6 +77,28 @@
 [submodule "pip-webui-data"]
 	path = pip-webui-data
 	url = git@github.com:pip-webui/pip-webui-data.git
+	branch = master
 [submodule "pip-webui-sample"]
 	path = pip-webui-sample
 	url = git@github.com:pip-webui/pip-webui-sample.git
+	branch = master
+[submodule "pip-webui-cssframework"]
+	path = pip-webui-cssframework
+	url = git@github.com:pip-webui/pip-webui-cssframework.git
+	branch = master
+[submodule "pip-webui-csscomponents"]
+	path = pip-webui-csscomponents
+	url = git@github.com:pip-webui/pip-webui-csscomponents.git
+	branch = master
+[submodule "pip-webui-themes"]
+	path = pip-webui-themes
+	url = git@github.com:pip-webui/pip-webui-themes.git
+	branch = master
+[submodule "pip-webui-split"]
+	path = pip-webui-split
+	url = git@github.com:pip-webui/pip-webui-split.git
+	branch = master
+[submodule "pip-webui-dates"]
+	path = pip-webui-dates
+	url = git@github.com:pip-webui/pip-webui-dates.git
+	branch = master
