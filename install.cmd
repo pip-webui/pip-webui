@@ -23,6 +23,7 @@ mklink /J pip-webui-core\node_modules node_modules
 mklink /J pip-webui-themes\node_modules node_modules
 mklink /J pip-webui-controls\node_modules node_modules
 mklink /J pip-webui-dates\node_modules node_modules
+mklink /J pip-webui-charts\node_modules node_modules
 mklink /J pip-webui-layouts\node_modules node_modules
 mklink /J pip-webui-split\node_modules node_modules
 mklink /J pip-webui-nav\node_modules node_modules

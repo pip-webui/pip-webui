@@ -30,6 +30,10 @@
 	path = pip-webui-dates
 	url = git@github.com:pip-webui/pip-webui-dates.git
 	branch = master
+[submodule "pip-webui-charts"]
+	path = pip-webui-charts
+	url = git@github.com:pip-webui/pip-webui-charts.git
+	branch = master
 [submodule "pip-webui-layouts"]
 	path = pip-webui-layouts
 	url = git@github.com:pip-webui/pip-webui-layouts.git
@@ -45,8 +49,4 @@
 [submodule "pip-webui-all"]
 	path = pip-webui-all
 	url = git@github.com:pip-webui/pip-webui-all.git
-	branch = master
-[submodule "pip-webui-charts"]
-	path = pip-webui-charts
-	url = git@github.com:pip-webui/pip-webui-charts.git
 	branch = master
