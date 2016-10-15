@@ -17,10 +17,12 @@ mkdir node_modules
 
 rem Make links of npm folder to each module
 mklink /J pip-webui-lib\node_modules node_modules
+mklink /J pip-webui-css\node_modules node_modules
 mklink /J pip-webui-csscomponents\node_modules node_modules
 mklink /J pip-webui-core\node_modules node_modules
 mklink /J pip-webui-themes\node_modules node_modules
 mklink /J pip-webui-controls\node_modules node_modules
+mklink /J pip-webui-lists\node_modules node_modules
 mklink /J pip-webui-dialogs\node_modules node_modules
 mklink /J pip-webui-dates\node_modules node_modules
 mklink /J pip-webui-charts\node_modules node_modules
