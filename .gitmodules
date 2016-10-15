@@ -2,10 +2,6 @@
 	path = pip-webui-lib
 	url = git@github.com:pip-webui/pip-webui-lib.git
 	branch = master
-[submodule "pip-webui-cssframework"]
-	path = pip-webui-cssframework
-	url = git@github.com:pip-webui/pip-webui-cssframework.git
-	branch = master
 [submodule "pip-webui-csscomponents"]
 	path = pip-webui-csscomponents
 	url = git@github.com:pip-webui/pip-webui-csscomponents.git
