@@ -54,3 +54,15 @@
 	path = pip-webui-services
 	url = git@github.com:pip-webui/pip-webui-services.git
 	branch = master
+[submodule "pip-webui-buttons"]
+	path = pip-webui-buttons
+	url = git@github.com:pip-webui/pip-webui-buttons.git
+	branch = master
+[submodule "pip-webui-headers"]
+	path = pip-webui-headers
+	url = git@github.com:pip-webui/pip-webui-headers.git
+	branch = master
+[submodule "pip-webui-landing"]
+	path = pip-webui-landing
+	url = git@github.com:pip-webui/pip-webui-landing.git
+	branch = master
