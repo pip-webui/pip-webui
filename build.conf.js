@@ -5,8 +5,7 @@ module.exports = {
     submodules: [
         'pip-webui-lib',
         'pip-webui-css',
-        'pip-webui-csscomponents',
-        'pip-webui-core',
+        'pip-webui-services',
         'pip-webui-themes',
         'pip-webui-controls',
         'pip-webui-lists',

@@ -50,3 +50,7 @@
 	path = pip-webui-lists
 	url = git@github.com:pip-webui/pip-webui-lists.git
 	branch = master
+[submodule "pip-webui-services"]
+	path = pip-webui-services
+	url = git@github.com:pip-webui/pip-webui-services.git
+	branch = master

@@ -37,7 +37,7 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-css">pip-webui-css</a> </td><td> CSS framework to extend Angular Material styles with animations visual effects </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-csscomponents">pip-webui-csscomponents</a> </td><td> Light-weight components implemented using CSS styles </td></tr>
-<tr><td> <a href="https://github.com/pip-webui/pip-webui-core">pip-webui-core</a> </td><td> Core services: localization, error handling, infinite scroll, draggable, selection behaviors, and more... </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-services">pip-webui-services</a> </td><td> Core services: localization, error handling, infinite scroll, draggable, selection behaviors, and more... </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-themes">pip-webui-themes</a> </td><td> Support for custom color themes </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-controls">pip-webui-controls</a> </td><td> basic controls: color picker, toggle buttons, popover, dialogs and more... </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-dates">pip-webui-dates</a> </td><td>Controls and services to work with dates and times </td></tr>
