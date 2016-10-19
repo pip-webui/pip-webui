@@ -45,6 +45,7 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-controls">pip-webui-controls</a> </td><td> random controls: color picker, popover, empty state and more... </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-landing">pip-webui-landing</a> </td><td> landing page controls </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-charts">pip-webui-charts</a> </td><td>Chart controls: line, bar, pie, scatter and others.... </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-dialogs">pip-webui-dialogs</a> </td><td> standard dialogs: info, confirmation, options, errors </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-layouts">pip-webui-layouts</a> </td><td> application layouts: simple, document, master-detail, tiles, dialog </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-split">pip-webui-split</a> </td><td> split layout to organize complex hierarchical content </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-nav">pip-webui-nav</a> </td><td> navigation mechanisms: appbar and sidenav </td></tr>
