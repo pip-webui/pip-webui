@@ -19,6 +19,8 @@ module.exports = {
         'pip-webui-split',
         'pip-webui-nav',
         'pip-webui-errors',
+        'pip-webui-settings',
+        'pip-webui-help',
         'pip-webui-all'
     ]
 };

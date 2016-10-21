@@ -50,6 +50,8 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-split">pip-webui-split</a> </td><td> split layout to organize complex hierarchical content </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-nav">pip-webui-nav</a> </td><td> navigation mechanisms: appbar and sidenav </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-errors">pip-webui-errors</a> </td><td> error handling pages and controls </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-settings">pip-webui-settings</a> </td><td> extensible settings page </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-help">pip-webui-help</a> </td><td> extensible help page </td></tr>
 </table>
 
 ### Compatibility
