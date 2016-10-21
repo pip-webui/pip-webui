@@ -66,3 +66,11 @@
 	path = pip-webui-landing
 	url = git@github.com:pip-webui/pip-webui-landing.git
 	branch = master
+[submodule "pip-webui-settings"]
+	path = pip-webui-settings
+	url = git@github.com:pip-webui/pip-webui-settings.git
+	branch = master
+[submodule "pip-webui-help"]
+	path = pip-webui-help
+	url = git@github.com:pip-webui/pip-webui-help.git
+	branch = master
