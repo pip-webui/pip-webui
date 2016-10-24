@@ -9,6 +9,7 @@ module.exports = {
         'pip-webui-landing',
         'pip-webui-services',
         'pip-webui-themes',
+        'pip-webui-behaviors',
         'pip-webui-controls',
         'pip-webui-buttons',
         'pip-webui-lists',

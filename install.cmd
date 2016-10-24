@@ -22,6 +22,7 @@ mklink /J pip-webui-landing\node_modules node_modules
 mklink /J pip-webui-headers\node_modules node_modules
 mklink /J pip-webui-services\node_modules node_modules
 mklink /J pip-webui-themes\node_modules node_modules
+mklink /J pip-webui-behaviors\node_modules node_modules
 mklink /J pip-webui-controls\node_modules node_modules
 mklink /J pip-webui-buttons\node_modules node_modules
 mklink /J pip-webui-lists\node_modules node_modules
