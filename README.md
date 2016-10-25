@@ -37,6 +37,7 @@ Pip.WebUI provides a set of modules targeted toward LOB application development.
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-lib">pip-webui-lib</a> </td><td> collection of 3rd party libraries other modules depend on </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-css">pip-webui-css</a> </td><td> CSS framework to extend Angular Material styles with animations visual effects </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-services">pip-webui-services</a> </td><td> non-visual services: localization, error handling, sessions, formatting, and more... </td></tr>
+<tr><td> <a href="https://github.com/pip-webui/pip-webui-behaviors">pip-webui-behaviors</a> </td><td> attacable behaviors: infinite scroll, selectable, focusable, drag-and-drop, unsaved changes </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-themes">pip-webui-themes</a> </td><td>support for custom color themes </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-buttons">pip-webui-buttons</a> </td><td> buttons: fabs, action lists, drilldown lists </td></tr>
 <tr><td> <a href="https://github.com/pip-webui/pip-webui-headers">pip-webui-headers</a> </td><td> header styles and controls </td></tr>
