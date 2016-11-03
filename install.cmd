@@ -1,10 +1,10 @@
 rem install global tools
-rem npm install gulp-cli -g
-rem npm install bower -g
-rem npm install mocha -g
-rem npm install typescript -g
-rem npm install tsd -d
-rem npm install typedoc -g
+rem npm3 install gulp-cli -g
+rem npm3 install bower -g
+rem npm3 install mocha -g
+rem npm3 install typescript -g
+rem npm3 install tsd -d
+rem npm3 install typedoc -g
 
 rem Get submodules
 git submodule init
@@ -38,7 +38,7 @@ mklink /J pip-webui-help\node_modules node_modules
 mklink /J pip-webui-all\node_modules node_modules
 
 rem Install 3rd party npm modules
-npm install
+npm3 install
 
 rem Install 3rd party bower modules
 cd pip-webui-lib
