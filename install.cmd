@@ -33,6 +33,7 @@ mklink /J pip-webui-layouts\node_modules node_modules
 mklink /J pip-webui-split\node_modules node_modules
 mklink /J pip-webui-nav\node_modules node_modules
 mklink /J pip-webui-errors\node_modules node_modules
+mklink /J pip-webui-locations\node_modules node_modules
 mklink /J pip-webui-settings\node_modules node_modules
 mklink /J pip-webui-help\node_modules node_modules
 mklink /J pip-webui-all\node_modules node_modules

@@ -20,6 +20,7 @@ module.exports = {
         'pip-webui-split',
         'pip-webui-nav',
         'pip-webui-errors',
+        'pip-webui-locations',
         'pip-webui-settings',
         'pip-webui-help',
         'pip-webui-all'

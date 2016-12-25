@@ -78,3 +78,7 @@
 	path = pip-webui-behaviors
 	url = git@github.com:pip-webui/pip-webui-behaviors.git
 	branch = master
+[submodule "pip-webui-locations"]
+	path = pip-webui-locations
+	url = git@github.com:pip-webui/pip-webui-locations.git
+	branch = master
