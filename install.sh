@@ -35,6 +35,8 @@ ln -s "$(pwd)/node_modules" ./pip-webui-split/node_modules
 ln -s "$(pwd)/node_modules" ./pip-webui-nav/node_modules
 ln -s "$(pwd)/node_modules" ./pip-webui-errors/node_modules
 ln -s "$(pwd)/node_modules" ./pip-webui-locations/node_modules
+ln -s "$(pwd)/node_modules" ./pip-webui-files/node_modules
+ln -s "$(pwd)/node_modules" ./pip-webui-dashboard/node_modules
 ln -s "$(pwd)/node_modules" ./pip-webui-settings/node_modules
 ln -s "$(pwd)/node_modules" ./pip-webui-help/node_modules
 ln -s "$(pwd)/node_modules" ./pip-webui-all/node_modules

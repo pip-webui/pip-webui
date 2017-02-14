@@ -82,3 +82,11 @@
 	path = pip-webui-locations
 	url = git@github.com:pip-webui/pip-webui-locations.git
 	branch = master
+[submodule "pip-webui-files"]
+	path = pip-webui-files
+	url = https://github.com/pip-webui/pip-webui-files.git
+	branch = master
+[submodule "pip-webui-dashboard"]
+	path = pip-webui-dashboard
+	url = https://github.com/pip-webui/pip-webui-dashboard.git
+	branch = master
